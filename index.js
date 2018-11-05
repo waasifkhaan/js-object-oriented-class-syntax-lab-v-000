@@ -4,7 +4,7 @@ class BoardMember {
     this.homeState = homeState;
     this.training = training
   }
- 
+
   veto() {
     console.log(`No, I must disagree`);
   }
@@ -15,10 +15,10 @@ class BoardMember {
     console.log(`I like to help people.`);
   }
   releasePressStatement() {
-    console.log(``);
+    console.log(`You will see great things from Scuber.`);
   }
   sayHi() {
-    console.log(``);
+    console.log(`Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in #{this.training}.`);
   }
 
 
